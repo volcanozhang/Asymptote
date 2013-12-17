@@ -51,8 +51,8 @@ draw(pedal--(A0+Yc*unit(A1-A0)),linetype(new real[] {8,8}));
 draw(pedal--(A0+Xc*unit(A2-A0)),linetype(new real[] {8,8}));
 
 //real tm = dot(unit(A1-A0),A0+Yc*unit(A1-A0)-pedal);
-label("$X_{\mbox c}$",pedal--(A0+Yc*unit(A1-A0)));
-label("$Y_{\mbox c}$",pedal--(A0+Yc*unit(A2-A0)));
+label("$X_{\textrm c}$",pedal--(A0+Yc*unit(A1-A0)));
+label("$Y_{\textrm c}$",pedal--(A0+Yc*unit(A2-A0)));
 
 draw(rotate(-50,X)*box((-2u,2u,-2u),(2u,0,2u)));
 for(int i=1; i < 5; ++i){
