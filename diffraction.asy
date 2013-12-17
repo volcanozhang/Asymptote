@@ -5,7 +5,7 @@ real ang = 40;
 //size(10u,10u);
 
 for (int i=0; i<5; ++i){
-    draw(rotate(-ang)*((-u,-0.2u*i)--(u,-0.2u*i)));
+    draw(rotate(-ang)*((-3u,-0.5u*i)--(3u,-0.5u*i)));
 }
 
 real len = 20u;
