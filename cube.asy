@@ -73,3 +73,12 @@ label("$\mathbf e_3$",shift(ori)*rotate(30,(0,1,0))*(O--O+(0,0,1)),E);
 
 draw(shift(ori)*rotate(30,(0,1,0))*(O--O+(-1,0,0)),Arrow3);
 label("$\mathbf e_2$",shift(ori)*rotate(30,(0,1,0))*(O--O+(-1,0,0)),W);
+
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(-0.1,0,0)--O+(-0.1,0.1,0)));
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(0,0.1,0)--O+(-0.1,0.1,0)));
+
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(0,0,0.1)--O+(0,0.1,0.1)));
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(0,0.1,0.1)--O+(0,0.1,0)));
+
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(0,0,0.1)--O+(-0.1,0,0.1)));
+draw(shift(ori)*rotate(30,(0,1,0))*(O+(-0.1,0,0.1)--O+(-0.1,0,0)));
